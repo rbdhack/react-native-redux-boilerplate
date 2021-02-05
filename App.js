@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 const store = configureStore();
 const App = () => (
   <Provider store={store}>
-  <View store={store} history={history} style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+  <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
     <Test/>
   </View>
   </Provider>
